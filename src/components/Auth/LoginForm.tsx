@@ -131,6 +131,14 @@ const LoginForm: React.FC = () => {
                 Garçom
               </button>
             </div>
+            {/* Botão para o cardápio online */}
+            <button
+              onClick={() => window.location.href = '/cardapio'}
+              className="mt-6 w-full px-4 py-2 text-sm bg-primary-50 text-primary-700 rounded-lg border border-primary-200 hover:bg-primary-100 transition-colors"
+              type="button"
+            >
+              Ver Cardápio Online
+            </button>
           </div>
         </div>
 
